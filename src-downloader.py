@@ -28,7 +28,7 @@ while(True):
         ys = yt_obj.streams.get_highest_resolution()
 
         print("Donwloading...")
-        ys.download("./../../Videos")
+        ys.download("./Videos")
         print("Download completed.")
 
         print("want to continue?[y/n]: ")
